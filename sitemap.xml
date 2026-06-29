@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://indianfestivals.net/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://indianfestivals.net/about.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://indianfestivals.net/changelog.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indianfestivals.net/contribute.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indianfestivals.net/map.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://indianfestivals.net/glossary.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indianfestivals.net/gallery.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indianfestivals.net/blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://indianfestivals.net/blog/sambat-jalana.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indianfestivals.net/blog/feed.xml</loc><changefreq>weekly</changefreq><priority>0.4</priority></url>
   <url><loc>https://indianfestivals.net/festivals/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://indianfestivals.net/festivals/diwali.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://indianfestivals.net/festivals/holi.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -24,4 +32,15 @@
   <url><loc>https://indianfestivals.net/festivals/hornbill-festival.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indianfestivals.net/festivals/sarhul-karma.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indianfestivals.net/festivals/bonalu-bathukamma.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/rath-yatra.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/kumbh-mela.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/muharram-ashura.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/indian-new-year.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/rongali-bihu.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/easter-in-india.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/theyyam.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/karva-chauth-teej.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/losar.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/wangala-chapchar-kut.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indianfestivals.net/festivals/republic-day-independence-day.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>

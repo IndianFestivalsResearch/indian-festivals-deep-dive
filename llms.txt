@@ -32,10 +32,21 @@ A research-based guide to Indian festivals, their regional variations, historica
 - [Hornbill Festival](https://indianfestivals.net/festivals/hornbill-festival.html)
 - [Sarhul & Karma](https://indianfestivals.net/festivals/sarhul-karma.html)
 - [Bonalu & Bathukamma](https://indianfestivals.net/festivals/bonalu-bathukamma.html)
+- [Rath Yatra](https://indianfestivals.net/festivals/rath-yatra.html) — Jagannath Puri chariot festival
+- [Kumbh Mela](https://indianfestivals.net/festivals/kumbh-mela.html) — World's largest pilgrimage
+- [Muharram & Ashura](https://indianfestivals.net/festivals/muharram-ashura.html) — Shia commemoration
+- [Indian New Year](https://indianfestivals.net/festivals/indian-new-year.html) — Ugadi, Gudi Padwa, Vishu, Puthandu
+- [Rongali Bihu](https://indianfestivals.net/festivals/rongali-bihu.html) — Assamese spring New Year
+- [Easter in India](https://indianfestivals.net/festivals/easter-in-india.html) — Christian Holy Week
+- [Theyyam](https://indianfestivals.net/festivals/theyyam.html) — Ritual dance of Kerala
+- [Karva Chauth & Teej](https://indianfestivals.net/festivals/karva-chauth-teej.html) — Women's fasting festivals
+- [Losar](https://indianfestivals.net/festivals/losar.html) — Tibetan Buddhist New Year
+- [Wangala & Chapchar Kut](https://indianfestivals.net/festivals/wangala-chapchar-kut.html) — Northeast indigenous
+- [Republic & Independence Day](https://indianfestivals.net/festivals/republic-day-independence-day.html) — National festivals
 
 ## Research Framework
 This site is built from a comprehensive research blueprint that covers:
-- 20+ festivals across Hindu, Muslim, Sikh, Jain, Buddhist, Christian, Zoroastrian, and Adivasi traditions
+- 34 festivals across Hindu, Muslim, Sikh, Jain, Buddhist, Christian, Zoroastrian, Adivasi, and secular traditions
 - Regional variations across 28+ Indian states
 - Primary source documentation (texts from 7th century BCE to 1908 CE)
 - Diaspora celebrations across 6 distinct migration types

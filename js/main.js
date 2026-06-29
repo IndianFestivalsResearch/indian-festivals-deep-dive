@@ -1,10 +1,10 @@
 // ═══════════════════════════════════════════════════════════
-// Land Of Devotion — Minimal JS
+// Tides of Devotion — Site JS
 // ═══════════════════════════════════════════════════════════
 (function() {
   'use strict';
 
-  // Festival search/filter on index pages
+  // ── Festival search/filter ──
   var searchInput = document.getElementById('festival-search');
   if (searchInput) {
     searchInput.addEventListener('input', function(e) {
@@ -22,17 +22,16 @@
     });
   }
 
-  // Active nav link
+  // ── Active nav link ──
   var path = window.location.pathname;
   var links = document.querySelectorAll('.site-nav a');
   links.forEach(function(link) {
-    if (link.getAttribute('href') === path || 
-        (path !== '/' && link.getAttribute('href') !== '/' && path.indexOf(link.getAttribute('href')) !== -1)) {
-      link.classList.add('active');
-    }
+    var href = link.getAttribute('href');
+    if (href === '/' && path === '/') { link.classList.add('active'); }
+    else if (href !== '/' && path.indexOf(href) === 0) { link.classList.add('active'); }
   });
 
-  // Smooth internal link offsets for sticky header
+  // ── Smooth scroll ──
   document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     anchor.addEventListener('click', function(e) {
       var target = document.querySelector(this.getAttribute('href'));
@@ -44,5 +43,47 @@
       }
     });
   });
+
+  // ── Dark mode toggle ──
+  var darkBtn = document.getElementById('dark-toggle');
+  if (darkBtn) {
+    var stored = localStorage.getItem('tdod-theme');
+    if (stored === 'dark') {
+      document.documentElement.classList.add('force-dark');
+      darkBtn.textContent = '☀️';
+    }
+    darkBtn.addEventListener('click', function() {
+      var html = document.documentElement;
+      if (html.classList.contains('force-dark')) {
+        html.classList.remove('force-dark');
+        localStorage.setItem('tdod-theme', 'light');
+        darkBtn.textContent = '🌙';
+      } else {
+        html.classList.add('force-dark');
+        localStorage.setItem('tdod-theme', 'dark');
+        darkBtn.textContent = '☀️';
+      }
+    });
+  }
+
+  // ── Back to top button ──
+  var btt = document.createElement('button');
+  btt.className = 'back-to-top';
+  btt.innerHTML = '↑';
+  btt.setAttribute('aria-label', 'Back to top');
+  btt.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  document.body.appendChild(btt);
+  window.addEventListener('scroll', function() {
+    btt.classList.toggle('visible', window.pageYOffset > 600);
+  });
+
+  // ── Reading time ──
+  var rtEl = document.getElementById('reading-time');
+  if (rtEl) {
+    var text = document.querySelector('main').textContent;
+    var words = text.split(/\s+/).length;
+    var mins = Math.max(1, Math.round(words / 200));
+    rtEl.textContent = '~' + mins + ' min read';
+  }
 
 })();

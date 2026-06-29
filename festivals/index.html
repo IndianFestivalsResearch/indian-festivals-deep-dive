@@ -11,9 +11,10 @@
 <body>
 <header class="site-header">
   <div class="container">
-    <a href="/" class="site-title">Land Of <span>Festivals</span></a>
+    <a href="/" class="site-title">Tides of <span>Devotion</span></a>
     <nav class="site-nav">
-      <a href="/">Home</a><a href="/festivals/">All Festivals</a><a href="/about.html">About</a>
+      <a href="/">Home</a><a href="/festivals/">All Festivals</a><a href="/blog/">Blog</a><a href="/about.html">About</a><a href="/contribute.html">Contribute</a>
+      <button id="dark-toggle" aria-label="Dark mode">🌙</button>
     </nav>
   </div>
 </header>
@@ -21,7 +22,7 @@
 
   <div class="breadcrumb"><a href="/">Home</a> &rsaquo; All Festivals</div>
   <h1>All Festivals</h1>
-  <p>Twenty-two festivals across eight religious and community traditions, spanning every region of India and diaspora communities worldwide.</p>
+  <p>Thirty-four festivals across eight religious and community traditions, spanning every region of India and diaspora communities worldwide.</p>
 
   <div class="search-bar">
     <input type="text" id="festival-search" placeholder="Filter festivals..." aria-label="Filter festivals">
@@ -34,7 +35,7 @@
 </main>
 <footer class="site-footer">
   <div class="container">
-    <div class="footer-links"><a href="/">Home</a> · <a href="/about.html">About</a> · <a href="/sitemap.xml">Sitemap</a></div>
+    <div class="footer-links"><a href="/">Home</a> · <a href="/festivals/">Festivals</a> · <a href="/blog/">Blog</a> · <a href="/contribute.html">Contribute</a> · <a href="/changelog.html">Changelog</a> · <a href="/sitemap.xml">Sitemap</a></div>
     <p>All primary source quotations from public domain texts. &copy; 2026</p>
   </div>
 </footer>
@@ -61,7 +62,18 @@ var festivals = [
   {name:"Nowruz · Jamshedi Navroz", local:"Pateti · Parsi New Year", url:"nowruz-jamshedi-navroz.html", desc:"Parsi Zoroastrian New Year. Fire temples, special feasts, tiny but culturally vital community.", tags:["Zoroastrian"]},
   {name:"Hornbill Festival", local:"Festival of Festivals", url:"hornbill-festival.html", desc:"Modern Naga meta-festival (est. 2000). 10 days, 16+ tribes, chili-eating, indigenous heritage.", tags:["Indigenous","Modern"]},
   {name:"Sarhul & Karma", local:"Sarhul · Karma Puja", url:"sarhul-karma.html", desc:"Adivasi spring/autumn festivals. Sal flowers, Sarna religion, census code demand.", tags:["Adivasi","Harvest"]},
-  {name:"Bonalu & Bathukamma", local:"Bonalu · Bathukamma", url:"bonalu-bathukamma.html", desc:"Telangana's state festivals. Folk goddess pots and women's floral towers. Post-2014 identity markers.", tags:["hindu","State festival"]}
+  {name:"Bonalu & Bathukamma", local:"Bonalu · Bathukamma", url:"bonalu-bathukamma.html", desc:"Telangana's state festivals. Folk goddess pots and women's floral towers. Post-2014 identity markers.", tags:["hindu","State festival"]},
+  {name:"Rath Yatra", local:"Jagannath Puri Chariot Festival", url:"rath-yatra.html", desc:"Ancient chariot festival. Origin of 'juggernaut.' ISKCON celebrates globally in 100+ countries.", tags:["hindu","Ancient"]},
+  {name:"Kumbh Mela", local:"World's Largest Pilgrimage", url:"kumbh-mela.html", desc:"240 million pilgrims. Largest peaceful gathering in history. Rotates among four sacred river sites.", tags:["hindu","UNESCO"]},
+  {name:"Muharram & Ashura", local:"Shia Commemoration · Taziya", url:"muharram-ashura.html", desc:"Imam Hussain's martyrdom. Taziya processions, marsiya poetry, Hindu participation in some regions.", tags:["muslim"]},
+  {name:"Indian New Year Festivals", local:"Ugadi · Gudi Padwa · Vishu · Puthandu", url:"indian-new-year.html", desc:"Spring New Year cluster: six-taste pachadi, victory flags, first-sight abundance, traders' new books.", tags:["hindu","New Year"]},
+  {name:"Rongali Bihu", local:"Assamese New Year · Bohag Bihu", url:"rongali-bihu.html", desc:"Assam's spring festival. Cattle bathing, Bihu dance, secular love songs. Distinct from harvest Bihu.", tags:["Assamese","New Year"]},
+  {name:"Easter in India", local:"Resurrection · Pascha · Pesaha", url:"easter-in-india.html", desc:"India's most significant Christian festival. Kerala unleavened bread. Goan processions. Northeast choirs.", tags:["christian"]},
+  {name:"Theyyam", local:"Ritual Dance — Northern Kerala", url:"theyyam.html", desc:"Performers become living deities. 400+ forms. Subverts caste hierarchy. Fire-walking. Muslim Theyyams.", tags:["hindu","Dravidian"]},
+  {name:"Karva Chauth & Teej", local:"Women's Fasting Festivals", url:"karva-chauth-teej.html", desc:"Married women's fasts. Moon through a sieve. Monsoon swings. Bollywood-visible. Feminist debates.", tags:["hindu","Women-led"]},
+  {name:"Losar", local:"Tibetan Buddhist New Year", url:"losar.html", desc:"Himalayan New Year. Cham masked dances. Giant thangkas. Guthuk soup. Ladakh, Sikkim, Arunachal.", tags:["buddhist","New Year"]},
+  {name:"Wangala · Chapchar Kut", local:"Garo 100-Drum · Mizo Bamboo Dance", url:"wangala-chapchar-kut.html", desc:"Northeast indigenous festivals. Synchronised drummers. Bamboo dance. Rice beer. Cultural revival.", tags:["Indigenous","Harvest"]},
+  {name:"Republic · Independence Day", local:"National Festivals · Jan 26 & Aug 15", url:"republic-day-independence-day.html", desc:"India's secular festivals. Republic Day parade. Kite-flying. Belongs to every religion.", tags:["National","Secular"]}
 ];
 
 var grid = document.getElementById('festival-list');

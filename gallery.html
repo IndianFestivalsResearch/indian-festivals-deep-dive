@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festival Photo Gallery — Tides of Devotion</title>
+  <meta name="description" content="Photo gallery of Indian festivals. Contributed images from community photographers worldwide. Submit your own festival photographs for credit.">
+  <link rel="canonical" href="https://indianfestivals.net/gallery.html">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .gallery-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(250px, 1fr)); gap:1rem; margin:1.5rem 0; }
+    .gallery-card { background:var(--color-white); border:1px solid var(--color-gray-200); border-radius:var(--radius); overflow:hidden; }
+    .gallery-card-img { height:180px; background:var(--color-gray-100); display:flex; align-items:center; justify-content:center; color:var(--color-gray-400); font-size:.85rem; }
+    .gallery-card-body { padding:.8rem; font-size:.85rem; }
+    .gallery-card-body .credit { color:var(--color-gray-400); font-size:.75rem; }
+
+    /* Lightbox */
+    .lightbox { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.9); z-index:1000; align-items:center; justify-content:center; }
+    .lightbox:target { display:flex; }
+    .lightbox img { max-width:90%; max-height:80vh; border-radius:var(--radius); }
+    .lightbox .close { position:absolute; top:1rem; right:1.5rem; color:#fff; font-size:2rem; text-decoration:none; }
+    .lightbox .caption { position:absolute; bottom:1rem; color:#fff; text-align:center; max-width:80%; }
+    .lightbox .prev, .lightbox .next { position:absolute; top:50%; color:#fff; font-size:2.5rem; text-decoration:none; transform:translateY(-50%); padding:1rem; }
+    .lightbox .prev { left:1rem; } .lightbox .next { right:1rem; }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="site-title">Tides of <span>Devotion</span></a>
+    <nav class="site-nav">
+      <a href="/">Home</a><a href="/festivals/">Festivals</a><a href="/map.html">Map</a><a href="/blog/">Blog</a><a href="/about.html">About</a><a href="/contribute.html">Contribute</a>
+      <button id="dark-toggle" aria-label="Dark mode">🌙</button>
+    </nav>
+  </div>
+</header>
+<main class="container" style="padding:2rem 1.2rem;">
+  <div class="breadcrumb"><a href="/">Home</a> &rsaquo; Gallery</div>
+  <h1>Festival Photo Gallery</h1>
+  <p>A growing collection of festival images from community contributors worldwide. <strong>This gallery is ready for your photographs.</strong> <a href="/contribute.html">Submit yours →</a></p>
+
+  <div class="content-section">
+    <h2>Placeholder Gallery — Awaiting Community Submissions</h2>
+    <p>The gallery framework is built and functional. Each photo card below shows the structure: image, festival name, location, year, and photographer credit. When we receive submissions, they'll be added here.</p>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-card">
+        <div class="gallery-card-img">📸 Diwali lamps — Photo pending</div>
+        <div class="gallery-card-body">
+          <strong>Diwali Lamps</strong><br>
+          <span>Varanasi, Uttar Pradesh · 2024</span><br>
+          <span class="credit">Photo: [Submit yours]</span>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-card-img">📸 Holi colours — Photo pending</div>
+        <div class="gallery-card-body">
+          <strong>Holi in Braj</strong><br>
+          <span>Barsana, Uttar Pradesh · 2024</span><br>
+          <span class="credit">Photo: [Submit yours]</span>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-card-img">📸 Durga Puja pandal — Photo pending</div>
+        <div class="gallery-card-body">
+          <strong>Durga Puja Pandal</strong><br>
+          <span>Kolkata, West Bengal · 2024</span><br>
+          <span class="credit">Photo: [Submit yours]</span>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-card-img">📸 Eid prayers — Photo pending</div>
+        <div class="gallery-card-body">
+          <strong>Eid at Jama Masjid</strong><br>
+          <span>Delhi · 2024</span><br>
+          <span class="credit">Photo: [Submit yours]</span>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-card-img">📸 Pongal celebration — Photo pending</div>
+        <div class="gallery-card-body">
+          <strong>Pongal at Dawn</strong><br>
+          <span>Madurai, Tamil Nadu · 2024</span><br>
+          <span class="credit">Photo: [Submit yours]</span>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-card-img">📸 Onam pookalam — Photo pending</div>
+        <div class="gallery-card-body">
+          <strong>Onam Flower Carpet</strong><br>
+          <span>Thrissur, Kerala · 2024</span><br>
+          <span class="credit">Photo: [Submit yours]</span>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-card-img">📸 Kumbh Mela — Photo pending</div>
+        <div class="gallery-card-body">
+          <strong>Kumbh Mela Naga Sadhus</strong><br>
+          <span>Prayagraj, Uttar Pradesh · 2025</span><br>
+          <span class="credit">Photo: [Submit yours]</span>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-card-img">📸 Ganesh Visarjan — Photo pending</div>
+        <div class="gallery-card-body">
+          <strong>Ganesh Immersion</strong><br>
+          <span>Mumbai, Maharashtra · 2024</span><br>
+          <span class="credit">Photo: [Submit yours]</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="callout" style="margin-top:2rem;">
+      <strong>How it works:</strong> Email your photographs to <strong>photos@indianfestivals.net</strong>. Include the festival name, location, year, a brief caption, and how you'd like to be credited. Your photo will appear in this gallery with your name and (optionally) a link to your portfolio or social media. See the <a href="/contribute.html">Contribute page</a> for full details.
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lb">
+    <a href="#gallery" class="close">&times;</a>
+    <a href="#" class="prev">&lsaquo;</a>
+    <a href="#" class="next">&rsaquo;</a>
+    <img src="" alt="" id="lb-img">
+    <div class="caption" id="lb-caption"></div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-links"><a href="/">Home</a> · <a href="/festivals/">Festivals</a> · <a href="/gallery.html">Gallery</a> · <a href="/map.html">Map</a> · <a href="/blog/">Blog</a> · <a href="/contribute.html">Contribute</a> · <a href="/changelog.html">Changelog</a> · <a href="/sitemap.xml">Sitemap</a></div>
+    <p>All primary source quotations from public domain texts (pre-1928). Modern sources cited under fair use.</p>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
+</body>
+</html>

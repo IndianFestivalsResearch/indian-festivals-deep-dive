@@ -13,16 +13,21 @@
   <link rel="canonical" href="https://indianfestivals.net/">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪔</text></svg>">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2d3a64">
 </head>
 <body>
 
 <header class="site-header">
   <div class="container">
-    <a href="/" class="site-title">Land Of <span>Festivals</span></a>
+    <a href="/" class="site-title">Tides of <span>Devotion</span></a>
     <nav class="site-nav">
       <a href="/">Home</a>
       <a href="/festivals/">All Festivals</a>
+      <a href="/blog/">Blog</a>
       <a href="/about.html">About</a>
+      <a href="/contribute.html">Contribute</a>
+      <button id="dark-toggle" aria-label="Dark mode">🌙</button>
     </nav>
   </div>
 </header>
@@ -337,14 +342,168 @@
       </div>
     </a>
 
+    <!-- RATH YATRA -->
+    <a href="/festivals/rath-yatra.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Rath Yatra</h3>
+        <div class="local-name">Jagannath Puri Chariot Festival</div>
+      </div>
+      <div class="festival-card-body">
+        <p>One of India's oldest festivals. Three colossal wooden chariots pulled by thousands. The origin of the word "juggernaut." ISKCON celebrates globally in 100+ countries.</p>
+        <div class="festival-card-tags">
+          <span class="tag hindu">Hindu</span><span class="tag secular">Ancient</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- KUMBH MELA -->
+    <a href="/festivals/kumbh-mela.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Kumbh Mela</h3>
+        <div class="local-name">The World's Largest Pilgrimage</div>
+      </div>
+      <div class="festival-card-body">
+        <p>The largest peaceful gathering in human history. 240 million pilgrims at the 2019 Ardh Kumbh. Rotates among four sacred river sites. UNESCO Intangible Heritage (2017).</p>
+        <div class="festival-card-tags">
+          <span class="tag hindu">Hindu</span><span class="tag secular">UNESCO</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- MUHARRAM -->
+    <a href="/festivals/muharram-ashura.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Muharram &amp; Ashura</h3>
+        <div class="local-name">Shia Commemoration · Taziya · Marsiya</div>
+      </div>
+      <div class="festival-card-body">
+        <p>Commemorating the martyrdom of Imam Hussain at Karbala. Distinctive Indian traditions: taziya processions, marsiya poetry. Hindu participation in some regions.</p>
+        <div class="festival-card-tags">
+          <span class="tag muslim">Muslim (Shia)</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- INDIAN NEW YEAR -->
+    <a href="/festivals/indian-new-year.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Indian New Year Festivals</h3>
+        <div class="local-name">Ugadi · Gudi Padwa · Vishu · Puthandu · Poila Boishakh</div>
+      </div>
+      <div class="festival-card-body">
+        <p>Spring New Year cluster: Ugadi Pachadi (six tastes of life), Gudi Padwa (victory flags), Vishukkani (first sight of abundance), Poila Boishakh (Bengali traders' new books).</p>
+        <div class="festival-card-tags">
+          <span class="tag hindu">Hindu</span><span class="tag secular">New Year</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- RONGALI BIHU -->
+    <a href="/festivals/rongali-bihu.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Rongali Bihu</h3>
+        <div class="local-name">Assamese New Year · Bohag Bihu</div>
+      </div>
+      <div class="festival-card-body">
+        <p>Assam's spring festival. Three days: cattle bathing (Goru Bihu), family feasting, and Bihu dance — hip-swaying, dhol-driven, with secular love songs. Distinct from Magh Bihu.</p>
+        <div class="festival-card-tags">
+          <span class="tag secular">Assamese</span><span class="tag secular">New Year</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- EASTER -->
+    <a href="/festivals/easter-in-india.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Easter in India</h3>
+        <div class="local-name">Resurrection · Pascha · Pesaha</div>
+      </div>
+      <div class="festival-card-body">
+        <p>India's most significant Christian festival. Kerala's Syrian Christian Pesaha (unleavened bread with Jewish origins). Goan processions. Northeast choir competitions.</p>
+        <div class="festival-card-tags">
+          <span class="tag christian">Christian</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- THEYYAM -->
+    <a href="/festivals/theyyam.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Theyyam</h3>
+        <div class="local-name">Ritual Dance of the Gods — Northern Kerala</div>
+      </div>
+      <div class="festival-card-body">
+        <p>Lower-caste performers become living deities through elaborate costumes and trance. 400+ distinct forms. Subversive of Brahminical temple hierarchy. Fire-walking. Mappila Muslim Theyyams.</p>
+        <div class="festival-card-tags">
+          <span class="tag hindu">Folk Hindu</span><span class="tag secular">Dravidian</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- KARVA CHAUTH / TEEJ -->
+    <a href="/festivals/karva-chauth-teej.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Karva Chauth &amp; Teej</h3>
+        <div class="local-name">Women's Fasting Festivals · Hartalika Teej</div>
+      </div>
+      <div class="festival-card-body">
+        <p>Married women's day-long fasts for their husbands' longevity. Karva Chauth: moon-sighting through a sieve. Teej: monsoon swings. Bollywood-visible. Feminist debates ongoing.</p>
+        <div class="festival-card-tags">
+          <span class="tag hindu">Hindu</span><span class="tag secular">Women-led</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- LOSAR -->
+    <a href="/festivals/losar.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Losar</h3>
+        <div class="local-name">Tibetan Buddhist New Year · Ladakh · Sikkim</div>
+      </div>
+      <div class="festival-card-body">
+        <p>Himalayan Buddhist New Year. Cham masked dances at monasteries. Giant thangka unfurling. Guthuk soup with symbolic dumplings. Distinct from Tibetan Losar by weeks.</p>
+        <div class="festival-card-tags">
+          <span class="tag buddhist">Buddhist</span><span class="tag secular">New Year</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- WANGALA / CHAPCHAR KUT -->
+    <a href="/festivals/wangala-chapchar-kut.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Wangala · Chapchar Kut</h3>
+        <div class="local-name">Garo 100-Drum · Mizo Bamboo Dance</div>
+      </div>
+      <div class="festival-card-body">
+        <p>Northeast indigenous festivals. Wangala: 100 synchronised drummers honouring the Sun God. Chapchar Kut: Cheraw bamboo dance after jhum clearing. Rice beer. Cultural revival.</p>
+        <div class="festival-card-tags">
+          <span class="tag adivasi">Indigenous</span><span class="tag secular">Harvest</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- REPUBLIC DAY -->
+    <a href="/festivals/republic-day-independence-day.html" class="festival-card" style="color:inherit;text-decoration:none;">
+      <div class="festival-card-header">
+        <h3>Republic · Independence Day</h3>
+        <div class="local-name">National Festivals · January 26 &amp; August 15</div>
+      </div>
+      <div class="festival-card-body">
+        <p>India's secular national festivals. Republic Day parade — 18 months of planning, military bands, state tableaux. Independence Day kite-flying. The only festival that belongs to every religion.</p>
+        <div class="festival-card-tags">
+          <span class="tag secular">National</span><span class="tag secular">Secular</span>
+        </div>
+      </div>
+    </a>
+
   </div>
 </main>
 
 <footer class="site-footer">
   <div class="container">
-    <p><strong>Land Of Festivals</strong> — A Research Deep Dive into Indian Festivals</p>
+    <p><strong>Tides of Devotion</strong> — A Research Deep Dive into Indian Festivals</p>
     <div class="footer-links">
-      <a href="/">Home</a> · <a href="/festivals/">Festivals</a> · <a href="/about.html">About &amp; Methodology</a> · <a href="/sitemap.xml">Sitemap</a>
+      <a href="/">Home</a> · <a href="/festivals/">Festivals</a> · <a href="/blog/">Blog</a> · <a href="/about.html">About</a> · <a href="/contribute.html">Contribute</a> · <a href="/sitemap.xml">Sitemap</a>
     </div>
     <p>All primary source quotations from public domain texts (pre-1928). Modern sources cited under fair use.<br>Built with care. Anti-exoticizing by design.</p>
   </div>

@@ -1,0 +1,29 @@
+{
+  "name": "Tides of Devotion — Indian Festivals Deep Dive",
+  "short_name": "Tides of Devotion",
+  "description": "A research-based, culturally respectful guide to Indian festivals — their regional lives, historical origins, and diaspora celebrations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#2d3a64",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "reference", "culture"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "id": "indian-festivals-deep-dive"
+}
