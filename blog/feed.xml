@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://indianfestivals.net/blog/</id>
-  <title>Tides of Devotion — Research Blog</title>
+  <title>Land Of Festivals — Research Blog</title>
   <subtitle>Behind-the-scenes notes on Indian festival research: fieldwork, source discoveries, and methodological reflections.</subtitle>
   <updated>2026-06-29T00:00:00Z</updated>
   <link rel="self" href="https://indianfestivals.net/blog/feed.xml"/>
   <link rel="alternate" href="https://indianfestivals.net/blog/"/>
   <author>
-    <name>Tides of Devotion Research Team</name>
+    <name>Land Of Festivals Research Team</name>
     <uri>https://indianfestivals.net/about.html</uri>
   </author>
   <rights>Content available under fair use. Primary source quotations from public domain texts.</rights>
-  <generator>Tides of Devotion static site generator</generator>
+  <generator>Land Of Festivals static site generator</generator>
 
   <entry>
     <id>https://indianfestivals.net/blog/sambat-jalana.html</id>

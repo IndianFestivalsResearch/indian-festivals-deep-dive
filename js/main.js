@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════════════════════
-// Tides of Devotion — Site JS
+// Land Of Festivals — Site JS
 // ═══════════════════════════════════════════════════════════
 (function() {
   'use strict';
@@ -47,7 +47,7 @@
   // ── Dark mode toggle ──
   var darkBtn = document.getElementById('dark-toggle');
   if (darkBtn) {
-    var stored = localStorage.getItem('tdod-theme');
+    var stored = localStorage.getItem('lof-theme');
     if (stored === 'dark') {
       document.documentElement.classList.add('force-dark');
       darkBtn.textContent = '☀️';
@@ -56,11 +56,11 @@
       var html = document.documentElement;
       if (html.classList.contains('force-dark')) {
         html.classList.remove('force-dark');
-        localStorage.setItem('tdod-theme', 'light');
+        localStorage.setItem('lof-theme', 'light');
         darkBtn.textContent = '🌙';
       } else {
         html.classList.add('force-dark');
-        localStorage.setItem('tdod-theme', 'dark');
+        localStorage.setItem('lof-theme', 'dark');
         darkBtn.textContent = '☀️';
       }
     });

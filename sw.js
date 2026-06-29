@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════════════════════
-// Tides of Devotion — Service Worker (Offline-First)
+// Land Of Festivals — Service Worker (Offline-First)
 // ═══════════════════════════════════════════════════════════
-const CACHE = 'tdod-v2';
+const CACHE = 'land-of-festivals-v2';
 const ASSETS = [
   '/',
   '/index.html',
