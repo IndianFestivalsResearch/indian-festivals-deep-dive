@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://indianfestivals.net/sitemap.xml
+
+# Crawl-delay for polite scraping
+Crawl-delay: 5

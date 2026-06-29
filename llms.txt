@@ -1,0 +1,48 @@
+# Tides of Devotion — Indian Festivals Deep Dive
+
+## About This Site
+A research-based guide to Indian festivals, their regional variations, historical origins, current practices, and diaspora celebrations worldwide. Built from public domain primary sources, academic research, and community documentation.
+
+## Key Pages
+- Homepage: https://indianfestivals.net/
+- All Festivals: https://indianfestivals.net/festivals/
+- About & Methodology: https://indianfestivals.net/about.html
+
+## Major Festivals
+- [Diwali](https://indianfestivals.net/festivals/diwali.html) — Festival of Lights (Hindu, Jain, Sikh)
+- [Holi](https://indianfestivals.net/festivals/holi.html) — Spring festival of colors
+- [Durga Puja / Navaratri / Dussehra](https://indianfestivals.net/festivals/durga-puja-navaratri-dussehra.html) — Nine-night goddess festival
+- [Eid-ul-Fitr & Eid-ul-Adha](https://indianfestivals.net/festivals/eid-ul-fitr-eid-ul-adha.html) — Islamic festivals in India
+- [Ganesh Chaturthi](https://indianfestivals.net/festivals/ganesh-chaturthi.html) — Elephant-headed god's festival
+- [Krishna Janmashtami](https://indianfestivals.net/festivals/krishna-janmashtami.html) — Krishna's birth celebration
+- [Maha Shivaratri](https://indianfestivals.net/festivals/maha-shivaratri.html) — Night of Shiva
+- [Makar Sankranti / Pongal](https://indianfestivals.net/festivals/makar-sankranti-pongal.html) — Solar harvest festival
+- [Onam](https://indianfestivals.net/festivals/onam.html) — Kerala's harvest festival
+
+## More Festivals
+- [Raksha Bandhan](https://indianfestivals.net/festivals/raksha-bandhan.html)
+- [Chhath Puja](https://indianfestivals.net/festivals/chhath-puja.html)
+- [Baisakhi / Vaisakhi](https://indianfestivals.net/festivals/baisakhi-vaisakhi.html)
+- [Gurpurab / Guru Nanak Jayanti](https://indianfestivals.net/festivals/gurpurab-guru-nanak-jayanti.html)
+- [Mahavir Jayanti](https://indianfestivals.net/festivals/mahavir-jayanti.html)
+- [Buddha Purnima](https://indianfestivals.net/festivals/buddha-purnima.html)
+- [Christmas in India](https://indianfestivals.net/festivals/christmas-in-india.html)
+- [Eid-e-Milad-un-Nabi](https://indianfestivals.net/festivals/eid-e-milad-un-nabi.html)
+- [Nowruz / Jamshedi Navroz](https://indianfestivals.net/festivals/nowruz-jamshedi-navroz.html)
+- [Hornbill Festival](https://indianfestivals.net/festivals/hornbill-festival.html)
+- [Sarhul & Karma](https://indianfestivals.net/festivals/sarhul-karma.html)
+- [Bonalu & Bathukamma](https://indianfestivals.net/festivals/bonalu-bathukamma.html)
+
+## Research Framework
+This site is built from a comprehensive research blueprint that covers:
+- 20+ festivals across Hindu, Muslim, Sikh, Jain, Buddhist, Christian, Zoroastrian, and Adivasi traditions
+- Regional variations across 28+ Indian states
+- Primary source documentation (texts from 7th century BCE to 1908 CE)
+- Diaspora celebrations across 6 distinct migration types
+- Historical evolution through 6 layers (ancient to digital era)
+
+## Source Policy
+All primary source quotations are from PUBLIC DOMAIN texts (pre-1928). See the [full bibliography](/festival_data/10_master_source_url_index.tsv). Modern academic sources are cited under fair use.
+
+## Ethics
+This project follows strict anti-exoticizing, anti-romanticizing guidelines. We distinguish scripture, folklore, popular belief, and observed practice. Disputed histories are flagged, not smoothed over.
