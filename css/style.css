@@ -511,6 +511,32 @@ input:focus, textarea:focus, select:focus {
 }
 .btn:hover { background: var(--color-saffron); text-decoration: none; }
 
+/* ═══════════ FOOD SECTION ═══════════ */
+.food-table { width:100%; border-collapse:collapse; font-size:.9rem; margin:1em 0; }
+.food-table td, .food-table th { padding:.5em .7em; border:1px solid var(--color-gray-200); vertical-align:top; }
+.food-table td:first-child { font-weight:600; white-space:nowrap; color:var(--color-vermillion); }
+.food-note { font-size:.85rem; color:var(--color-gray-400); font-style:italic; margin:.5em 0; }
+.diet-tag { display:inline-block; font-size:.7rem; padding:.1em .5em; border-radius:99px; margin-right:.3em; }
+.diet-tag.veg { background:#e8f5e9; color:#2e7d32; }
+.diet-tag.nonveg { background:#fce4ec; color:#c62828; }
+.diet-tag.fasting { background:#fff8e1; color:#f9a825; }
+.diet-tag.contains-nuts { background:#f3e5f5; color:#6a1b9a; }
+.diet-tag.gluten { background:#e3f2fd; color:#1565c0; }
+
+.recipe-link { font-size:.85rem; display:inline-block; margin:.2em 0; }
+.recipe-link a { color:var(--color-green); }
+.disclaimer-box {
+  background:var(--color-gray-100);
+  border:1px dashed var(--color-gray-400);
+  padding:.8rem 1rem;
+  margin-top:1.5rem;
+  border-radius:var(--radius);
+  font-size:.82rem;
+  color:var(--color-gray-600);
+  line-height:1.6;
+}
+.disclaimer-box strong { color:var(--color-gray-800); }
+
 /* ═══════════ FORCE DARK MODE (toggle override) ═══════════ */
 html.force-dark {
   --color-cream: #1a1a2e;
