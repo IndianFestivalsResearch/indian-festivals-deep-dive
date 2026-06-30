@@ -537,6 +537,22 @@ input:focus, textarea:focus, select:focus {
 }
 .disclaimer-box strong { color:var(--color-gray-800); }
 
+/* ═══════════ ATTIRE SECTION ═══════════ */
+.attire-table { width:100%; border-collapse:collapse; font-size:.9rem; margin:1em 0; }
+.attire-table td, .attire-table th { padding:.5em .7em; border:1px solid var(--color-gray-200); vertical-align:top; }
+.attire-table td:first-child { font-weight:600; white-space:nowrap; color:var(--color-indigo); }
+.attire-note { font-size:.85rem; color:var(--color-gray-400); font-style:italic; margin:.5em 0; }
+.fabric-tag { display:inline-block; font-size:.7rem; padding:.1em .5em; border-radius:99px; margin-right:.3em; }
+.fabric-tag.silk { background:#fce4ec; color:#c62828; }
+.fabric-tag.cotton { background:#e8f5e9; color:#2e7d32; }
+.fabric-tag.gold { background:#fff8e1; color:#f9a825; }
+.fabric-tag.wool { background:#e3f2fd; color:#1565c0; }
+.fabric-tag.jewelry { background:#f3e5f5; color:#6a1b9a; }
+.attire-ref { background:var(--color-gray-100); padding:.8rem 1rem; margin:.8em 0; border-radius:var(--radius); font-size:.9rem; }
+.attire-ref::before { content:"👗  "; }
+.attire-ref a { font-size:.85rem; }
+.attire-evolution { background:var(--color-saffron-light); border-left:4px solid var(--color-saffron); padding:.8rem 1rem; margin:1em 0; border-radius:0 var(--radius) var(--radius) 0; font-size:.9rem; }
+
 /* ═══════════ FORCE DARK MODE (toggle override) ═══════════ */
 html.force-dark {
   --color-cream: #1a1a2e;
